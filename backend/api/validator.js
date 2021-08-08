@@ -11,7 +11,7 @@ module.exports = app => {
     } catch (error) {
       return;
     }
-    throw error;
+    throw msg;
   }
 
   function equalsOrError(valueA, valueB, msg) {
