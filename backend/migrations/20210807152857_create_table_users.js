@@ -1,4 +1,10 @@
 
+//COMANDO PARA CRIAR A MIGRATION: 
+//knex migrate:make <nome da migration>
+
+//COMANDO PARA RODAR TODAS AS MIGRATIONS
+//knex migrate:latest
+
 exports.up = function(knex) {
   return knex.schema.createTable('users', table => {
     table.increments('id').primary()
