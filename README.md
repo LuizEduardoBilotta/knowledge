@@ -1,12 +1,12 @@
 <h1 align="center">
-  <img src="./images/web-principal.png" alt="Banner Ecoleta"/>
+  <img src="./images/web-principal.png" alt="Banner Knowledge"/>
 </h1>
 
 <h2 align="center">:recycle: Knowledge - Base de Conhecimento</h2>
 <p> 
-  O <strong>Knowlegde</strong> é uma aplicação Web e Mobile com a finalidade de conectar pessoas e pontos de coleta de resíduos orgânicos e inorgânicos, permitindo o descarte desses materiais de forma correta e <strong>ecológica</strong>.
+  O <strong>Knowlegde</strong> permite o cadastro de usuários e administradores para que possam escrever e armazenar artigos de tecnologia, organizando por categorias.
   
-  O Projeto foi desenvolvido durante o bootcamp <strong>Next Level Week #01</strong> da [Rocketseat](https://rocketseat.com.br/).
+  O Projeto foi desenvolvido durante o curso <strong>Web Completo com JavaScript</strong> da [@Cod3r](https://cod3r.com.br/).
 </p>
 
 ## :dart: Índice
@@ -32,23 +32,24 @@
 
 ## :toolbox: Tecnologias
 - [Node.js](https://nodejs.org/)
-- [React](https://reactjs.org)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Vue.js](https://vuejs.org/)
 - [Knex](http://knexjs.org/)
-- [Expo](https://expo.io/)
+- [MongoDB](https://www.mongodb.com/pt-br)
+- [PostgreSQL](https://www.postgresql.org/)
 
 ## :heavy_check_mark: Pré-requisitos
 Antes de iniciar, certifique-se que tenha instalado em seu computador as seguintes ferramentas:
 - [Node.js](https://nodejs.org/)
 - [Git](https://git-scm.com/downloads)
+- [MongoDB](https://www.mongodb.com/pt-br)
+- [PostgreSQL](https://www.postgresql.org/)
 
 ## :gear: Executando o projeto
 O projeto está dividido em 2 partes:
-- Back end - diretório [server](./server)
-- Front end - diretório [web](./web)
+- Back end - diretório [backend](./backend)
+- Front end - diretório [frontend](./frontend)
 
-**OBS:** Para o correto funcionamento das aplicações Web (Front End) é necessário que o Server (Back End) esteja sendo executado.
+**OBS:** Para o correto funcionamento das aplicações Front End (Web) é necessário que o Back End (Server) esteja sendo executado.
 
 1. *Faça um clone do repositório:*
 
@@ -70,12 +71,11 @@ $ cd backend
 # Instale as dependências:
 $ npm install
 
-# Configurando o banco de dados (Criação de tabelas no sqLite3 e inserindo os itens pré-cadastrados):
-$ npm run knex:migrate
-$ npm run knex:seed
+# Configurando o banco de dados (Criação de tabelas):
+$ knex migrate:latest
 
 # Execute a aplicação:
-$ npm run dev
+$ npm start
 ```
 
 ### Executando o Front End (web)
