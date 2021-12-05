@@ -80,21 +80,7 @@ $ npm start
 
 ### Executando o Front End (web)
 
-```sh
-# Acesse o diretório no terminal:
-$ cd ecoleta
-
-# Acesse o diretório web:
-$ cd web
-
-# Instale as dependências:
-$ npm install
-
-# Execute a aplicação:
-$ npm start
-```
-
-**OBS:** Caso não inicie a aplicação automaticamente em seu navegador, acesse manualmente digitando na barra de endereços: `localhost:3000`
+## Em desenvolvimento...
 
 ## :bookmark_tabs: Licença
 Este projeto está licenciado nos termos da licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
