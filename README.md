@@ -1,7 +1,3 @@
-<h1 align="center">
-  <img src="./images/web-principal.png" alt="Banner Knowledge"/>
-</h1>
-
 <h2 align="center">:books: Knowledge - Base de Conhecimento</h2>
 <p> 
   O <strong>Knowlegde</strong> permite o cadastro de usuários e administradores para que possam escrever e armazenar artigos de tecnologia, organizando por categorias.
@@ -28,7 +24,7 @@
 ## :framed_picture: Layout
 
 ### Web
-<img src="./images/apresentacao.png" alt="Layout web" title="Layout web">
+## Em desenvolvimento...
 
 ## :toolbox: Tecnologias
 - [Node.js](https://nodejs.org/)
